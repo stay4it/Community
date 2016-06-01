@@ -8,4 +8,5 @@ APP基本框架：
 
 效果图：
  
- ![image](github.com/jdsjlzx/Community/blob/master/pic/app.gif) 
+ ![](https://github.com/jdsjlzx/Community/blob/master/pic/app.gif?raw=true) 
+ 
