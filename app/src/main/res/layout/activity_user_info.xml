@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:background="@drawable/selector_common_button">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    style="@style/text_title_style"
+                    android:text="@string/user_info_avatar"/>
+
+                <ImageView
+                    android:id="@+id/avatar_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_18"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/right_arrow"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        style="@style/text_title_style"
+                        android:text="@string/user_info_nickname"/>
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        style="@style/text_content_style"
+                        android:text="十之六九"/>
+
+                </RelativeLayout>
+
+                <View style="@style/divider_horizontal_style"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        style="@style/text_title_style"
+                        android:text="@string/user_info_sex"/>
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        style="@style/text_content_style"
+                        android:text="十之六九"/>
+
+                </RelativeLayout>
+
+                <View style="@style/divider_horizontal_style"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        style="@style/text_title_style"
+                        android:text="@string/user_info_address"/>
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        style="@style/text_content_style"
+                        android:text="十之六九"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_18"
+                android:paddingBottom="@dimen/dp_18"
+                android:background="@android:color/white"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    style="@style/text_title_style"
+                    android:text="@string/user_info_qrcode"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    style="@style/text_content_style"
+                    android:text="十之六九"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_18"
+                android:paddingBottom="@dimen/dp_18"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_title_style"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10"
+                    android:text="@string/user_info_signature"/>
+
+                <View style="@style/divider_horizontal_style"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <TextView
+                    style="@style/text_title_style"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10"
+                    android:text="天诺有情天易老，人间正道是沧桑"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

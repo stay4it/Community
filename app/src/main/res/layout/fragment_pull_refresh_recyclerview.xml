@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.cundong.recyclerview.CustRecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <include
+                android:id="@+id/empty_view"
+                layout="@layout/view_empty_layout"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <com.xylife.community.ui.error.ErrorLayout
+            android:id="@+id/error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/top_btn"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_22"
+            android:layout_marginRight="16dp"
+            android:background="@mipmap/ic_to_top"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.xylife.community.view.HomeSlideShowView
+        android:id="@+id/banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_line_color"
+            />
+        <!-- 快捷入口 -->
+        <LinearLayout
+            android:id="@+id/quick_entry_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dp_14"
+            android:paddingTop="@dimen/dp_14"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/quick_view_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/ic_around_shop"
+                android:gravity="center"
+                android:text="红豆"
+                android:textColor="@color/black_light"
+                android:textSize="13sp"/>
+
+
+            <TextView
+                android:id="@+id/quick_view_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/ic_around_shop"
+                android:gravity="center"
+                android:text="绿豆"
+                android:textColor="@color/black_light"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/quick_view_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/ic_around_shop"
+                android:gravity="center"
+                android:text="黄豆"
+                android:textColor="@color/black_light"
+                android:textSize="13sp"
+                />
+
+
+            <TextView
+                android:id="@+id/quick_view_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/ic_around_shop"
+                android:gravity="center"
+                android:text="黑豆"
+                android:textColor="@color/black_light"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_line_color"
+            />
+
+    </LinearLayout>
+
+    <!-- 精选活动 -->
+    <LinearLayout
+        android:id="@+id/specialty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_line_color"
+            />
+
+        <RelativeLayout
+            android:id="@+id/special_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_white_preferences_item"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精选活动"
+                android:textColor="#333"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="5dp"
+                android:text="更多"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_line_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="3"
+            >
+
+            <ImageView
+                android:id="@+id/specialty_image_0"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@mipmap/girl"
+                />
+
+            <ImageView
+                android:id="@+id/specialty_image_1"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@mipmap/girl"
+                />
+
+            <ImageView
+                android:id="@+id/specialty_image_2"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@mipmap/girl"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="@dimen/dp_6"
+        />
+
+</LinearLayout>

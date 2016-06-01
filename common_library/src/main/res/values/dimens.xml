@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="edit_box_height">48.0dip</dimen>
+
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+
+
+    <dimen name="font_large">16.0sp</dimen>
+    <dimen name="font_normal">14.0sp</dimen>
+    <dimen name="font_medium">12.0sp</dimen>
+    <dimen name="font_small">10.0sp</dimen>
+
+</resources>

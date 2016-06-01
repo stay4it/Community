@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="top_icon" format="reference" />
+    <attr name="bottom_icon" format="reference" />
+
+    <declare-styleable name="GradientIconView">
+        <attr name="top_icon" />
+        <attr name="bottom_icon" />
+    </declare-styleable>
+
+    <attr name="text_content" format="string" />
+    <attr name="text_size" format="dimension" />
+    <attr name="top_text_color" format="color" />
+    <attr name="bottom_text_color" format="color" />
+
+    <declare-styleable name="GradientTextView">
+        <attr name="text_content" />
+        <attr name="text_size" />
+        <attr name="top_text_color" />
+        <attr name="bottom_text_color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RowView">
+        <attr name="rowTitle" format="string"/>
+        <attr name="rowIcon" format="reference"/>
+        <attr name="rowTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg" >
+    <include
+        layout="@layout/title_bar_text"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/user_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_user_avater"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_14"
+            android:layout_marginBottom="@dimen/dp_22"
+            android:textSize="@dimen/sp_16" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:layout_marginRight="@dimen/dp_22"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/account_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dip"
+                android:hint="@string/input_phone"
+                android:textColorHint="@color/gray_text_ab"
+                android:inputType="textWebEmailAddress"
+                android:maxLines="1"
+                android:layout_marginTop="16dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:layout_marginRight="@dimen/dp_22"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/psw_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_pwd"
+                android:textColorHint="@color/gray_text_ab"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_common_corners_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="@dimen/dp_36"
+            android:layout_marginRight="@dimen/dp_22"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_16"
+            android:text="@string/login" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_22"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:text="@string/forget_pwd"
+            android:textColor="@color/gray_text_ab"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+</RelativeLayout>

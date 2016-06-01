@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources>
+
+    <string name="app_name">绿色生活</string>
+
+    <!--首页-->
+    <string name="tab_home">首页</string>
+    <string name="tab_me">我的</string>
+    <string name="tab_party">活动</string>
+    <string name="tab_schedule">日程</string>
+
+    <string name="setting">设置</string>
+    <string name="register">注册</string>
+
+    <string name="loading">加载中...</string>
+    <string name="comment">评论</string>
+
+
+    <string name="yellow_bean">黄豆</string>
+    <string name="green_bean">绿豆</string>
+    <string name="black_bean">黑豆</string>
+    <string name="red_bean">红豆</string>
+
+    <string name="today_schedule">今日安排</string>
+
+    <!--每日签到-->
+    <string name="sign">签到</string>
+    <string name="sign_every_day">每日签到</string>
+
+    <!--忘记密码-->
+    <string name="next">下一步</string>
+    <string name="retrieve_pwd">找回密码</string>
+    <string name="input_new_pwd">输入新密码</string>
+    <string name="confirm_new_pwd">确认新密码</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="get_verify_code">获取验证码</string>
+
+    <!--登录界面-->
+    <string name="login">登录</string>
+    <string name="forget_pwd">忘记密码</string>
+
+    <!--注册界面-->
+    <string name="input_phone">输入手机号</string>
+    <string name="input_pwd">输入密码</string>
+    <string name="input_nickname">填写您的昵称</string>
+    <string name="input_verify_code">输入验证码</string>
+    <string name="resend">重新发送</string>
+    <string name="completed">完成</string>
+    <string name="instruction">我已经阅读并同意使用条款和个人隐私</string>
+
+
+    <!--我的-->
+    <string name="title_my_publish">我的发布</string>
+    <string name="title_my_info">我的资料</string>
+    <string name="title_my_message">我的消息</string>
+    <string name="title_my_participate">我参加的官方活动</string>
+    <string name="title_VIP_application">富电会员申请</string>
+    <string name="account">账号</string>
+    <string name="exit">退出登录</string>
+
+    <!--设置-->
+    <string name="title_clear_cache">清除缓存</string>
+    <string name="title_personal_set">个人设置</string>
+    <string name="title_app">应用相关</string>
+    <string name="title_check_new_version">检测新版本</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="title_about_app">关于APP</string>
+
+    <!--用户资料-->
+    <string name="user_info_nickname">昵称</string>
+    <string name="user_info_avatar">更换头像</string>
+    <string name="user_info_signature">个性签名</string>
+    <string name="user_info_sex">性别</string>
+    <string name="user_info_address">地区</string>
+    <string name="user_info_qrcode">二维码名片</string>
+
+
+    <!--活动详情-->
+    <string name="title_party_detail">活动详情</string>
+
+    <!--充电桩-->
+    <string name="charging_pile">充电桩</string>
+
+    <!--发布活动-->
+    <string name="post_activity">发布活动</string>
+
+
+</resources>

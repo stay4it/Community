@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pageerrLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_error_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_page_failed"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/animProgress"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    style="@style/loading" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_error_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10.0dip"
+                android:lines="2"
+                android:gravity="center"
+                android:text="@string/error_view_loading"
+                android:textColor="@color/infoTextColor"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <include layout="@layout/user_info_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/my_info"
+                style="@style/text_title_style"
+                android:layout_width="match_parent"
+                android:text="@string/title_my_info"
+                android:drawableLeft="@mipmap/ic_avatar"
+                android:background="@drawable/selector_white_preferences_item"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_18"
+                android:paddingTop="@dimen/dp_18"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/feedback"
+                    style="@style/text_title_style"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/selector_white_preferences_item"
+                    android:text="@string/title_feedback"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_18"
+                    android:paddingTop="@dimen/dp_18"
+                    android:drawableLeft="@mipmap/ic_feedback"
+                    android:drawablePadding="@dimen/dp_10"/>
+
+                <View style="@style/divider_horizontal_style"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/text_title_style"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/selector_white_preferences_item"
+                    android:text="@string/title_about_app"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_18"
+                    android:paddingTop="@dimen/dp_18"
+                    android:drawableLeft="@mipmap/ic_about"
+                    android:drawablePadding="@dimen/dp_10"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_40"
+                android:background="@drawable/selector_common_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/exit"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

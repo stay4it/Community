@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+        <com.android.framewok.widget.CircleImageView
+            android:id="@+id/avatar_image"
+            android:layout_width="@dimen/dp_72"
+            android:layout_height="@dimen/dp_72"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:layout_marginTop="@dimen/dp_10"
+            android:src="@mipmap/girl"
+            app:border_color="@android:color/white"
+            app:border_width="2dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            style="@style/text_title_style"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="@android:color/black"
+            android:text="十之六九" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        layout="@layout/layout_horizontal_line"
+        android:layout_marginTop="@dimen/dp_22"
+        />
+
+        <LinearLayout
+            android:id="@+id/ll_user_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10"
+            android:gravity="center"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/black_bean"
+                    style="@style/text_title_style"
+                    android:text="@string/black_bean"/>
+
+                <TextView
+                    android:id="@+id/name_text"
+                    style="@style/text_title_style"
+                    android:textColor="@android:color/black"
+                    android:text="10"/>
+            </LinearLayout>
+
+            <View style="@style/divider_vertical_style"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/red_bean"
+                    style="@style/text_title_style"
+                    android:text="@string/red_bean"/>
+
+                <TextView
+                    style="@style/text_title_style"
+                    android:textColor="@android:color/black"
+                    android:text="10"/>
+
+            </LinearLayout>
+
+            <View style="@style/divider_vertical_style"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/green_bean"
+                    style="@style/text_title_style"
+                    android:text="@string/green_bean"/>
+
+                <TextView
+                    style="@style/text_title_style"
+                    android:textColor="@android:color/black"
+                    android:text="10"/>
+
+            </LinearLayout>
+
+            <View style="@style/divider_vertical_style"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/yellow_bean"
+                    style="@style/text_title_style"
+                    android:text="@string/yellow_bean"/>
+
+                <TextView
+                    style="@style/text_title_style"
+                    android:textColor="@android:color/black"
+                    android:text="10"/>
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

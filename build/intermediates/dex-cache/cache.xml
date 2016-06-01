@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="8e325e9ba5c23d635d0cfaa76c349fca83101f8a">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.2.3_3a52f405d9434935203704d94af48ad892942c6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_radar_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="285cb61966027336b8cc418a6a3ec159039aa0c2">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_radar_v3_7_3_ba3f8137a81be2248d54e9be4758d16a4a9ed530/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="37679179966d40b0d081074b957912c679652907">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9fed93c000c908ef33a5f71a5cd4f0b2a9580b6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.1_7eaff370f324f3b60227edbf27113ac287d300c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_map_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="b18498f0ff59163574118729da41b7e89971d713">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_map_v3_7_3_b6a183c4c0633d46021d382e4720d62c9b59d837/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_base_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="26aec1b74c9e42fb4f27432b79cf9e65365f5612">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_base_v3_7_3_0f638c4f937dca26a4f70a1bbd251b98a29a9ee3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.trello/rxlifecycle/0.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="3a98a50c56978d02c0651d12f5a26c3e7c31c397">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.trello-rxlifecycle-0.6.1_3ed16c52502485ce6baa055e02c67335e9fac2d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_043c1e83badedf197926b6550ff35f126e728074/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta4/de5935a367ba5e343e9df786ac8fc0c7d52b5f0c/converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.0-beta4_e07ce39499772200dde35d7b4819e7af1c9d28ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_9366fab634d99f7ec6f7bfd48fbfd4c5f1b3905b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/Community/pull_recyclerview_library/unspecified/jars/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="e0e755aa51e4480f46da425feb8b6d4e9dd206c0">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/8/universal-image-loader-1.9.5_1e58924f695107e089ef1db5fab3784591b653f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_f5e9e97257985dba1bf6aafb800b4d5cc67dc65f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_049d14687c1a3b5ed4c12d6af020cd24f6e0974c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0-beta4/bd49baf667542c7d06f71e598bdee7fe57272013/adapter-rxjava-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="bd49baf667542c7d06f71e598bdee7fe57272013">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.0-beta4_b88a3cf7338c336dc1933433cebb29a4c1fa9665/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.4/3cc424c6eda381bf4aee40dc3ccdecc27b2106aa/rxjava-1.1.4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="3cc424c6eda381bf4aee40dc3ccdecc27b2106aa">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.4_eee41603c2185fe2500ab85529ba303d595d1ca2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.0.1_7c54de777aa990dfae69b8fb1d399b6f03922d85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0-beta4/739e00dea1f0ac04fdb9b6160d667e23cc50a791/retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0-beta4_5df6386528c1a0c2791388153a06056aaf22be88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="007c071ad8a414834c53b4f7d1115ee9a3d8add7">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0188b74188dc33a4a2cb312cd70f85e4cb32b0eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_62f6f962b24af68c74bec470a09ad0b1f7bc07ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-components/0.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="5c90d2e1f0959b6e1f312b9f53049a342f0e82df">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.trello-rxlifecycle-components-0.6.1_cbcc24cc47594f081499930a803b46c838405eaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.1.2/a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0/logging-interceptor-3.1.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.1.2_37588f828537086c46faedb9aae91ed711870752/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_303ffc7f14b595fe3ff4ab3c6c940d3c1a29f082/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_7573dc2067a13f970959114b6466f75535b16d19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_c34a21da41cc1b87dd569f39509ed7540aac9ae0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_6fa6ac5d2f64f642809db6bd34f371a000c36897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_38488ef771e477124cb91c51463cf2bcb27e26de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.0.1_0e80b3abed804c181c31aaeac39d6bb35fee015f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_util_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="77f23565c6bc14129d2ec152c809161343cdeaad">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_util_v3_7_3_b2eab3308802793706db770c2b6c315f1aa27c70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_bd12b701be304ac5b133b73d618cfa4b379c24d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_29532356835407f17f69515afee9caed1b7b6702/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_search_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="dea8cea1cf2639d2a92718333f47f5a7bef25b17">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_search_v3_7_3_121e3b1f15dbd9834ee05418291579af528aea91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.13_52f9477f90eff6f524af68caf19c89fd94f77acd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/Android/studio_sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_669049aa07ab3f0c542f8a7cae68f12e8efdce62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/libs/baidumapapi_cloud_v3_7_3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="1bfd60b172276bd6c127e1b020578ba8943cb817">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_cloud_v3_7_3_3f793fb3ae35716b898d10df294854d2c55926c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/me.iwf.photopicker/PhotoPicker/0.8.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c4cf14c6c7c3be4df71ff672f872746671408950">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.iwf.photopicker-PhotoPicker-0.8.1_0c1dabe79bf1324edd498f4a9e1a93db8194cf77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-0.4.0_ea4ba6cc7858fa94ab89ef79dbb58faa2f260801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/git/Community/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/lizhixian/Documents/git/Community/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_c385746dd8a56eb56fbc65198aaee1bd657a9d5d/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF44C88E</color>
+    <color name="colorPrimaryDark">#FF26A66E</color>
+    <color name="colorAccent">#FF44C88E</color>
+
+
+    <color name="app_bg">#FFF0F0F0</color>
+    <color name="tab_bg_color">#44C88E</color>
+    <color name="infoTextColor">#999999</color>
+
+    <color name="common_color">#ff44c88e</color>
+    <color name="common_color_pressed">#ff26a66e</color>
+    <color name="gray_text_ab">#ffababab</color>
+    <color name="gray_text_89">#ff898989</color>
+    <color name="gray_text_66">#ff666666</color>
+
+    <color name="common_black_color">#ff333333</color>
+
+    <color name="gray_text">#FF858585</color>
+    <color name="black_light">#FF999999</color>
+
+    <color name="orange_light">#FFf96060</color>
+
+    <color name="divider_color">#dddddd</color>
+
+    <color name="widget_general_row_pressed">#d9d9d9</color>
+    <color name="widget_general_row_line">#e5e5e5</color>
+
+    <color name="title_bar_line_color">#ffb2b2b2</color>
+    <color name="gray_line_color">#ffdddddd</color>
+</resources>

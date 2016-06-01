@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:text="个人设置"/>
+
+        <com.xylife.community.widget.RowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rowIcon="@mipmap/ic_menu_me"
+            app:rowTitle="@string/account"
+            app:rowTextSize="@dimen/sp_18"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+        <com.xylife.community.widget.RowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rowIcon="@mipmap/ic_menu_me"
+            app:rowTitle="@string/title_clear_cache"
+            app:rowTextSize="@dimen/sp_18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:text="应用相关"/>
+
+        <com.xylife.community.widget.RowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rowIcon="@mipmap/ic_menu_me"
+            app:rowTitle="@string/title_check_new_version"
+            app:rowTextSize="@dimen/sp_18"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+        <com.xylife.community.widget.RowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rowIcon="@mipmap/ic_menu_me"
+            app:rowTitle="@string/title_feedback"
+            app:rowTextSize="@dimen/sp_18"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+        <com.xylife.community.widget.RowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rowIcon="@mipmap/ic_menu_me"
+            app:rowTitle="@string/title_about_app"
+            app:rowTextSize="@dimen/sp_18"/>
+
+    </LinearLayout>
+
+</LinearLayout>

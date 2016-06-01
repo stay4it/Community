@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:background="@drawable/selector_white_preferences_item"
+    android:orientation="vertical"
+    >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        layout="@layout/layout_horizontal_line"
+        android:layout_gravity="top"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <com.android.framewok.widget.CircleImageView
+                    android:id="@+id/logo_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/ic_user_avater"
+                    app:border_color="@android:color/white"
+                    app:border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/company_name_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textColor="@color/gray_text"
+                        android:textSize="@dimen/sp_14"/>
+
+                    <TextView
+                        android:id="@+id/certification_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dp_4"
+                        android:paddingRight="@dimen/dp_4"
+                        android:paddingBottom="2dp"
+                        android:background="@drawable/shape_orange_corners_bg"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp_12"
+                        android:text="官方"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/enrol_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@drawable/selector_green_corners_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sp_16"
+                android:text="报名"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/common_black_color"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_6"
+            android:drawableLeft="@mipmap/ic_time"
+            android:drawablePadding="@dimen/dp_4"
+            android:maxLines="1"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@mipmap/ic_loaction"
+            android:drawablePadding="@dimen/dp_4"
+            android:maxLines="1"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/sp_14"/>
+
+        <ImageView
+            android:id="@+id/display_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="@dimen/dp_6"
+            android:src="@mipmap/girl"/>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        layout="@layout/layout_horizontal_line"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/dp_6"/>
+</LinearLayout>

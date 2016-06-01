@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+
+    <string-array name="title_bar_labels">
+        <item>@string/app_name</item>
+        <item>日程</item>
+        <item>我的</item>
+    </string-array>
+
+    <string-array name="tab_bar_labels">
+        <item>全部</item>
+        <item>比亚迪</item>
+        <item>宝马</item>
+        <item>特斯拉</item>
+        <item>雪佛兰</item>
+        <item>本田</item>
+        <item>丰田</item>
+    </string-array>
+
+    <string-array name="tab_bar_party_detail">
+        <item>活动详情</item>
+        <item>参加须知</item>
+        <!--<item>评论</item>-->
+    </string-array>
+
+</resources>

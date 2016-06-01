@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/title_bar_style">
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:contentDescription="@null"
+        android:padding="15dp"
+        android:src="@mipmap/back_narrow_btn"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title_text"
+        style="@style/title_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <LinearLayout
+        android:id="@+id/right_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/action_bar_item_background"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/right_text"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        layout="@layout/layout_horizontal_line"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
