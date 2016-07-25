@@ -10,3 +10,6 @@ APP基本框架：
  
  ![](https://github.com/jdsjlzx/Community/blob/master/pic/app.gif?raw=true) 
  
+ 本项目使用的pull_recyclerview_library框架已经更名，最新请移步：
+ https://github.com/jdsjlzx/LRecyclerView
+ 
